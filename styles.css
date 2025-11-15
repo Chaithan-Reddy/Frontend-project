@@ -1,0 +1,117 @@
+.class1 {
+    background-image: url('https://i.pinimg.com/736x/c6/1f/8f/c61f8f42ee089bee27de77f4a64cdbf6.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+.story {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.story > div > h1 {
+    font-size: 60px;
+}
+.story > div > button {
+    color: brown;
+    height: 40px;
+    width: 150px;
+    font-size: 15px;
+    font-weight: normal;
+    cursor: pointer;
+}
+
+.story > div > button:hover {
+    color: white;
+    background-color: brown;
+    border: none;
+}
+
+.story-a {
+    width: 40%;
+}
+.features {
+    background-image: url('https://i.pinimg.com/1200x/6d/88/ba/6d88ba056ad66378e8ec95c341004065.jpg');
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    position: relative;
+    background-size: 100%;
+    /* width: 100%; */
+    height: 80vh;
+}
+.features-a {
+    width: 55%;
+}
+.features-b {
+    position: absolute;
+    left: 120vh;
+}
+/* .features-a,button:nth-child(9) {
+    color: orange;
+    background-color: transparent;
+    height: 40px;
+    width: 160px;
+    border: orange 1px solid;
+    
+} */
+.features-b > img {
+    scale: 0.65;
+    animation-name: cup;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    position: absolute;
+    /* animation-timing-function: ease; */
+    animation-direction: alternate-reverse;
+}
+
+@keyframes cup {
+    from {
+        transform: translateY(3vh);
+
+    }
+}
+.services-1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+    justify-content: space-around;
+}
+.services > p,h2 {
+    display: flex;
+    justify-content: center;
+}
+.services-a {
+    width: 70%;
+    background-color: white;
+    border: 2px solid gray;
+    row-gap: 20px;
+    text-align: center;
+}
+.choose {
+    background-image: url('https://i.pinimg.com/1200x/2c/b6/93/2cb69347a12a420511d5534a1df29dca.jpg');
+    background-size: 100%;
+    height: 70vh;
+    width: 100%;
+}
+.menu-a > div > img {
+    width: 60vh;
+    height: 40vh;
+}
+.menu-a{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+    gap: 5vh;
+}
+.menu-a > div {
+    width: 0;
+}
+.blog-a {
+    display: flex;
+}
+.blog-a > div > img {
+    height: 40vh;
+    width: 60vh;
+}
