@@ -1,5 +1,5 @@
 .nav {
-    background-image: url('https://i.pinimg.com/736x/c6/1f/8f/c61f8f42ee089bee27de77f4a64cdbf6.jpg');
+    background-image: url('https://i.pinimg.com/1200x/6a/98/41/6a9841a5c2768b5c638a0777e7789f38.jpg');
     background-size: 100%;
     background-repeat: no-repeat;
     height: 100vh;
@@ -9,6 +9,10 @@
     display: flex;
     justify-content: space-around;
     color: white;
+    cursor: pointer;
+}
+.nav-a > div>p:hover {
+    color: orangered;
 }
 .nav-a > div {
     display: flex;
@@ -19,6 +23,34 @@
     width: 40%;
     padding: 20vh;
 }
+.nav-b > h1 {
+    font-size: 8vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: orangered;
+
+}
+.nav-b > .button1 {
+    height: 6vh;
+    width: 17vh;
+    border-radius: 0.5vh;
+    background-color: rgb(249, 84, 24);
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.nav-b > .button2 {
+    height: 6vh;
+    width: 17vh;
+    border-radius: 0.5vh;
+    background-color: transparent;
+    color: white;
+    border: solid orangered 0.1vh;
+    cursor: pointer;
+    margin-left: 1vh;
+}
+.nav-b > .button2:hover {
+    background-color: rgb(249, 84, 24);
+}
 .story {
     display: flex;
     width: 100%;
@@ -28,17 +60,22 @@
     font-size: 60px;
 }
 .story > div > button {
-    color: brown;
-    height: 40px;
-    width: 150px;
-    font-size: 15px;
+    color: rgb(62, 26, 0);
+    height: 6vh;
+    letter-spacing: 0.25vh;
+    width: 25vh;
+    font-size: 2vh;
     font-weight: normal;
+    background-color: transparent;
     cursor: pointer;
+    border-radius: 0.5vh;
+    font-weight: 600;
+    border: 0.1vh solid rgb(62, 26, 0);
 }
 
 .story > div > button:hover {
     color: white;
-    background-color: brown;
+    background-color: rgb(62, 26, 0);
     border: none;
 }
 
@@ -75,6 +112,20 @@
 .features-a > div > button:hover {
     background-color: orangered;
     border: none;
+}
+.features-a > button {
+    background-color: transparent;
+    border: solid orangered 0.1vh;
+    height: 6vh;
+    width: 20vh;
+    color: white;
+    letter-spacing: 0.1vh;
+    font-size: 2vh;
+    cursor: pointer;
+    border-radius: 0.5vh;
+}
+.features-a >button:hover {
+    background-color: orangered;
 }
 .features-b {
     position: absolute;
